@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title><i>COFFEE SHOP</i></title>
+	<link rel="stylesheet" type="text/css" href="coffeeshop.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome.min.css">
+	<style type="text/css">
+		h1{
+			color:golden;
+		}
+	</style> 
+	</head>
+	<body style="background-color:black" >
+
+           
+
+		       
+		    <nav>
+
+		    	<div class="logo">
+		    		<img src="C:\Users\ASUS\Desktop\shop\co.jpg">
+		    		<span class="logo-text">COFFEE SHOP</span>
+		    		<ul>
+		    			<li><a href="index.html">HOME</a></li>
+		    		    <li ><a href="products.html">PRODUCT</a></li>
+		    		    <li><a href="price.html">PRICE</a></li>
+		    		    <li><a href="about.html">ABOUT</a></li>
+		    		</ul>
+		    </nav>
+		       <section>
+		       	<a href="#sec" id="btn">Explore</a>
+		       </section>
+		    	</div>
+		    </header>
+		    
+            </div>
+            <div class="card-list">
+            	<h1 id="product"><I>PRODUCT</I></h1>
+                <div class="card" id="mocha">
+                	<img src="C:\Users\ASUS\Desktop\shop\coffeecards\mocha-image.png">
+                    <div>
+                    	<h2>Mocha</h2>
+                    	<h3>RS.170;250</h3>
+                    </div>
+                </div>
+                <div class="card" id="espresso">
+                	<img src="C:\Users\ASUS\Desktop\shop\coffeecards\americano-image.png">
+                    <div>
+                    	<h2>ESPRESSO</h2>
+                    	<h3>Rs.200;250</h3>
+                    </div>
+                </div>
+                <div class="card" id="cappuccino">
+                	<img src="C:\Users\ASUS\Desktop\shop\coffeecards\cappuccino-image.png">
+                    <div>
+                    	<h2>CAPPUCCINO</h2>
+                    	<h3>Rs.300;200</h3>
+                    </div>
+                </div>
+                <div class="card" id="latte">
+                	<img src="C:\Users\ASUS\Desktop\shop\coffeecards\latte-image.png">
+                    <div>
+                    	<h2>LATTE</h2>
+                    	<h3>Rs.180;150</h3>
+                    </div>
+                </div>
+            </div>
+           <div class="sec" id="sec">
+           <script>
+           	let mocha=document.getElementById('mocha');
+           	let Espresso=document.getElementById('Espresso');
+           	let Cappuccino=document.getElementById('Cappuccino');
+           	let latte=document.getElementById('latte');
+           	window.addEventListener('scroll',function(){
+           		let value=window.scrollY;
+           		cappuccino.style.left=value*0.25+'px';
+           		latte.style.top=value*1.25+'px';
+           		Espresso.style.top=value*2.25+'px';
+           		mocha.style.top=value*0.05+'px';})
+
+
+           	
+
+           </script>
+           </div>
+		
+		
+        <img src="C:\Users\ASUS\Desktop\bio.jpg" alt="coffee shop" >
+
+		<table font-color:white class='pricing-table'>
+		<div>
+			<caption  class="caption-heading">Coffee Menu</caption>
+			<tr>
+				<th><h1>Coffee Name</h1></th>
+				<th>Price(in Rs.)</th>
+				<th>Availablity</th>
+            </tr>
+            <tr class="tr-out-of-stock">
+            	<td>Mocha</td>
+            	<td>140</td>
+            	<td>Out Of Stock</td>
+            </tr>
+            <tr class="tr-in-stock">
+            	<td>Cappuccino</td>
+            	<td>170</td>
+            	<td>In stock</td>
+            </tr>	
+             <tr class="tr-in-stock">
+            	<td>Espresso</td>
+            	<td>230</td>
+            	<td>In stock</td>
+            </tr>	
+            <tr class="tr-in-stock">
+            	<td>Double Espresso</td>
+            	<td>200</td>
+            	<td>In stock</td>
+            </tr>	
+            <tr class="tr-in-stock">
+            	<td>Latte</td>
+            	<td>190</td>
+            	<td>In stock</td>
+            </tr>	
+            <tr class="tr-in-stock">
+            	<td>Vale Coffee</td>
+            	<td>300</td>
+            	<td>In stock</td>
+            </tr>	
+        </table>
+        </div>
+        <img src="C:\Users\ASUS\Desktop\tr.jpg" style-width:200px;>
+        <div class="order-section">
+		    	<h1 id="order">Order</h1>
+		    	<form class="form">
+		    		<input type="text" placeholder="name">
+		    		<input type="email" placeholder="Email">
+		    		<input type="phone" placeholder="Phone">
+		    		<input type="submit">
+		    	</form>
+		    </div>	
+
+				<footer class="footer">
+			<div style="height:50%;">
+				<a href="index.html">HOME|</a>
+				<a href="product.html">PRODUCT</a>
+			</div>
+			<div style="height:50%">
+				Designed by Christina copyright@Inventrom
+			</div>
+			<a href="https://restaurant-guru.in/Anbu-Coffee-Bar-Tirunelveli">COFFEE BAR WEBSITE</a>
+			<h1>THANKS FOR VISITING US!</h1>
+            <div>Coffee
+            <span>Rate us on google</span>
+        </div>
+       
+          
+        </footer>
+	</body>
+</html>

@@ -1,0 +1,305 @@
+h2{
+	color:gold;
+}
+
+body{
+	margin:0px;
+
+}
+.available-coffee{
+	color:gold;
+	height:300px;
+	width:300px;
+	font-size:16px;
+	font-style:italic;
+}
+
+.container{
+	height:100px;
+	
+	border:2px solid gold
+}
+
+.out-of-stock{
+	border:2px dotted black;
+	font-size:17px;
+	font-color:orange;
+	font-style:italic;
+	font-family:Georgia;
+}
+
+.in-stock{
+	border:2px dotted black;
+	font-size:17px;
+	font-color:orange;
+	font-style:italic;
+	font-family:Georgia;
+}
+
+.hov:hover{
+	background-color:#fff;
+}
+
+}
+
+#mocha{
+	color:grey;
+}
+
+#espresso{
+	color:grey;
+}
+
+#cappuccino{
+	color:gold;
+}
+.div-img{
+	height:50%;
+	width:50%;
+}
+.available-coffee{
+	
+	height:300px;
+	width:300px;
+}
+
+
+.pricing-table{
+	width:100%;	
+	border:2px solid gold;
+	font-family:"Arial Black",Gadget,sans-serif;
+	font-color:white;
+	text-align: center;
+}
+
+.caption-heading{
+	color:#2979a8;
+}
+
+th{
+	background-color:black;
+	height:50px;
+	color:white;
+	font-size:22px;
+}
+td{
+     height:50px;
+     font-size:21px;
+     color:#7c4c29;
+}
+
+.tr-out-of-stock:hover{
+   background-color:#ffcccc;
+}
+
+.tr-in-stock:hover{
+   background-color:#ccffe6;
+}
+
+.coffee-list{
+	list-style-type:square;
+	font-color:gold;
+}
+.footer{
+	background:#272727;
+	color:white;
+	height:100px;
+	font-size:20px;
+	text-align:center;
+}
+
+[href="https://restaurant-guru.in/Anbu-Coffee-Bar-Tirunelveli"]{
+	color:gold;
+}
+
+h1,div{
+	color:gold;
+}
+
+
+
+.first-div{
+	height:200px;
+	border:1px solid gold;
+	margin:40px;
+	padding-top:40px;
+}
+
+.sticky{
+	height:100px;
+	background-color:solid gold;
+}
+
+
+.mydiv{
+	height:20%;
+	width:24%;
+	background-color:solid gold;
+	margin:1px;
+	display:inline-block;
+}
+@media(min-width:320px) and (max-width:480px)
+    .mydiv{
+    	background-color:green;
+    }
+}
+
+
+
+
+.div-logo{
+	height:100%;
+	text-align:center;
+	margin:10px;
+	float:left;
+}
+
+.logo-text{
+	display:block;
+	font-family:"Helvetica Neue";
+	font-weight:bold;
+	color:gold;
+}
+
+
+.coffee-nav{
+	float:right;
+	height:100%;
+}
+
+.coffee-nav a{
+	color:white;
+	font-size:15px;
+	font-weight:700;
+	font-family:"Helvetica Neue";
+	padding-right:20px;
+	padding-top:12%;
+	display:inline-block;
+}
+
+.site-content{
+	position:absolute;
+	top:78px;
+	width:100%;
+}
+
+
+
+
+.quote{
+	color:white;
+	font-family:"Helvetica Neue";
+	position:relative;
+	top:10%;
+}
+
+
+
+
+.site-content{
+	position:fixed;
+	top:78px;
+	width:100%;
+}
+body{
+	margin:0;
+	padding:0;
+	font-family:Arial;
+
+}
+
+
+
+nav{
+	position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100px;
+    padding:10px 90px;
+    box-sizing:border-box;
+    background:rgba(0,0,0,0);
+    border-bottom:1px solid #fff;
+}
+
+nav .logo{
+	padding:22px 20px;
+	height:80px;
+	float:left;
+	font-size:24px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+
+nav ul{
+	list-style:none;
+	font:right;
+	margin:0;
+	padding:0;
+	display:flex;
+
+}
+
+nav ul li a{
+	 line-height:80px;
+	 color:#fff;
+	 padding:12px 30px;
+	 text-decoration:none;
+	 font-size:14px;
+	 font-weight:bold;
+	 text-transform:uppercase;
+}
+
+nav ul li a:hover{
+	background:rgba(0,0,0,0.7);
+	border-radius:6px;
+}
+section{
+	width:100%;
+	height:100vh;
+	background:url("bg.jpg");
+	background-size:cover;
+	background-position:center;
+	z-index:100%;
+}
+
+.card-list{
+	width:100%;
+}
+#product{
+	text-align:center;
+}
+#latte{
+	color:grey;
+}
+
+.card{
+	width:22%;
+	padding:1.5%;
+	height:300px;
+	float:left;
+	text-align:center;
+}
+
+.card img{
+	width:100%;
+}
+
+.order-section{
+	width:100%;
+}
+#order{
+	text-align:center;
+}
+.form{
+	width:200px;
+	margin:0 auto;
+
+}
+
+.form input{
+	padding:10px;
+	margin:10px;
+}
